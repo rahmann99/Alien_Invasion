@@ -6,7 +6,7 @@ from pygame.sprite import Sprite
 class Bullet(Sprite):
     """ A class to manage firing bullets"""
 
-    def __int__(self, ai_game):
+    def __init__(self, ai_game):
         """ creating bullet object at ship position"""
 
         super().__init__()

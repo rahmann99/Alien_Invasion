@@ -1,6 +1,5 @@
 import pygame
 
-
 class Ship:
     """ A class to manage ship."""
 
@@ -35,9 +34,6 @@ class Ship:
 
             # Update rect object from self.x
             self.rect.x = self.x
-
-            
-
 
     def blitme(self):
         """draw the ship at current location"""
